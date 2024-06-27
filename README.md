@@ -196,9 +196,23 @@ Select * from TransactionType
 9. List the Users who have never used the Card for transaction.
 10. List all users along with their corresponding card numbers and transaction amounts. If a user does not have a card or has never made a transaction, show NULL values for the card number and transaction amount.
 
-## PracticeTasks 1 :
+## PracticeTasks 5 :
+Practice Queries for sql.
 
-## PracticeTasks 1 :
+## PracticeTasks 6 :
+1. What is the maximum, minimum, average and standard deviation of the ages of the users? (Search Standard Dev function)
+2. Give the name of the user who has the highest number of followers.
+3. Give name of the user who has second highest followers.
+4. List names of all the users who have never tweeted.
+5. List all the hashtags and usernames and number of times that user used that hashtag.
+6. Find the users who have never used the hashtag #Census.
+7. List all the usernames that have never been followed. Using Set operation
+8. List all the usernames that have never been followed. Using Exist Clause.
+9. Find the most common interest of users. (The interest with the largest number of users). Also find the least common interest.
+10. Show total tweets per country. The result should be in order of country name.
+11. List names of all the users whose number of tweets is more than the average number of tweets per user.
+12. Give the name of the users who have at least one follower from Pakistan.
+13. Show the interest ID and description of interest with the most number of users.
 
 ## PracticeTasks 1 :
 
