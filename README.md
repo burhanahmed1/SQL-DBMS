@@ -78,7 +78,13 @@ Practice Queries for sql.
 13. Show the interest ID and description of interest with the most number of users.
 
 ## PracticeTasks 7 :
-
+1. Find the name of the oldest student in each department who has not enrolled in any course.
+2. List the names of students who have taken all courses offered in their department.
+3. Find the courses where the average age of enrolled students is greater than the overall average age of all students.
+4. List the names of students who have the same age as at least one other student in the same department, but different names.
+5. Find the courses with the highest and lowest enrollment rate (number of enrolled students divided by the total number of students in the department).
+6. Find the department(s) with the highest number of courses
+   
 ## PracticeTasks 1 :
 
 ## PracticeTasks 1 :
