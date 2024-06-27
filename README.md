@@ -85,7 +85,14 @@ Practice Queries for sql.
 5. Find the courses with the highest and lowest enrollment rate (number of enrolled students divided by the total number of students in the department).
 6. Find the department(s) with the highest number of courses
    
-## PracticeTasks 1 :
+## PracticeTasks 8 :
+1. Create a trigger which don’t allow you to delete any student from student Table.  Print message “You don’t have the permission to delete the student”
+2. Create a trigger which don’t allow you to insert any course in Courses Table.  Print message “You don’t have the permission to Insert a new Course” 
+3. Create a new table, ‘Notify’ that should notify students about any important events. The table has three columns, NotifictionID, StudentID and Notification String. Create a Trigger to notify student if his registration in the course is successful. Also inform user if registration is not successful. For successful registration the student must have passed the prerequisite and number of seats are available. 
+4. According to university rules, Students before enrolling in new course should have no fee charges due. Create a trigger to ensure that no student is enrolled in new course with more than 20,000 fee charges due. 
+5. Create a trigger that do not let you delete any course semester whose available seats are less than 10. Print ‘not possible’.  Otherwise prints ‘Successfully deleted’, after you delete any course semester whose available seats are 10 or more. 
+6. Create a trigger to stop Instructors table, from being modified or dropped.
+
 
 ## PracticeTasks 1 :
 
