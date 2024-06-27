@@ -94,9 +94,26 @@ Practice Queries for sql.
 6. Create a trigger to stop Instructors table, from being modified or dropped.
 
 
-## PracticeTasks 1 :
+## PracticeTasks 9 :
+Create a procedure for student registration in some course the procedure must check  that the CGPA of the student if the CGPA is less than 2.5 the transaction must rollback and the record must not be stored and a message must be displayed that he can only enroll in subjects that he can improve however if the student’s CGPA is greater than 2.5 he can enroll in any subject he wants in this case the transaction should be committed.  Assume that the enrollment can only be done through stored procedure.
 
-## PracticeTasks 1 :
+## PracticeTasks 10 :
+Create tables using data.sql file attached and insert related data.
+1. Create a simple view called StudentList that displays the full names of all students along with their date of birth.
+2. Write a SQL query to retrieve the top 5 students (based on their student_id) from the StudentList view.
+3. Add a new column to the StudentList view called age that calculates the age of each student based on their date of birth.
+4. Create a materialized view called CourseEnrollments that shows the number of students enrolled in each course.
+5. Write a SQL query to retrieve the courses with the highest number of enrollments from the CourseEnrollments materialized view.
+6. Modify the CourseEnrollments materialized view to include the course name and instructor's name. Refresh the materialized view to update the information.
+7. Write a complex SQL query that uses both the StudentList simple view and the CourseEnrollments materialized view to find the course with the most enrollments and display the names of the students enrolled in that course.
+8. Drop both the StudentList view and the CourseEnrollments materialized view.
+9. Create a simple view named StudentCourseCount that displays the student's full name and the count of courses they are enrolled in.
+10. Write a SQL query to find the student(s) with the highest number of courses enrolled from the StudentCourseCount view.
+11. Create a materialized view called InstructorCourseCount that shows the instructor's name and the count of courses they are teaching.
+12. Write a SQL query to find the instructor(s) with the highest number of courses they are teaching from the InstructorCourseCount view.
+13. Create a materialized view called StudentEnrollments that displays the student's full name and a list of courses they are enrolled in, separated by commas.
+14. Write a SQL query that uses the StudentCourseCount, InstructorCourseCount, and StudentEnrollments views to find the student who is enrolled in the most courses and display the instructor(s) teaching those courses.
+15. Create a materialized view called StudentCourseInfo that displays the student's full name, course name, and instructor for all
 
 ## PracticeTasks 1 :
 
