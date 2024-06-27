@@ -177,7 +177,24 @@ Select * from TransactionType
 12. List all the users and their card name using union
 13. List all the users and their card name using Intersection
 
-## PracticeTasks 1 :
+## PracticeTasks 4 :
+### Join
+1. List the names of the users who are from the same city. (Use Self Join) Aggregation-Grouping
+2. List the number of users in each city, sorted high to low.
+3. List the Card numbers and number of transactions against each card number having more than two Transactions. 
+
+### Like operators
+4. List all the user having name at least 3 character long.
+5. List all the user whose name start with H and end with z and user type gold
+6. List all the user having character a in their name.
+
+### Set Operations
+7. List the userId and name of the users whose cards are not expired.
+8. List the Users details who are gold type and common type. (Without using AND operator and join)
+
+### Outer Join task
+9. List the Users who have never used the Card for transaction.
+10. List all users along with their corresponding card numbers and transaction amounts. If a user does not have a card or has never made a transaction, show NULL values for the card number and transaction amount.
 
 ## PracticeTasks 1 :
 
