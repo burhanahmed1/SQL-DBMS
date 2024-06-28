@@ -115,25 +115,6 @@ Create tables using data.sql file attached and insert related data.
 14. Write a SQL query that uses the StudentCourseCount, InstructorCourseCount, and StudentEnrollments views to find the student who is enrolled in the most courses and display the instructor(s) teaching those courses.
 15. Create a materialized view called StudentCourseInfo that displays the student's full name, course name, and instructor for all
 
-## PracticeTasks 1 :
-
-## PracticeTasks 1 :
-
-## PracticeTasks 1 :
-
-## PracticeTasks 1 :
-
-## PracticeTasks 1 :
-
-## PracticeTasks 1 :
-
-## PracticeTasks 1 :
-
-## PracticeTasks 1 :
-
-## PracticeTasks 1 :
-
-## PracticeTasks 1 :
 
 
 
